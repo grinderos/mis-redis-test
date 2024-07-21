@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: mis-redis-test
+
+redis:
+  host: localhost
+  port: 6379
+  bucket:
+    users:
+      key: "users:"
+      ttl: 180
